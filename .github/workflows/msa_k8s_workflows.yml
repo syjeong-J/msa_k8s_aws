@@ -1,0 +1,21 @@
+name: deploy order
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  # job name
+  build-and-deploy:
+    
+    #runner
+    runs-on: ubuntu-latest
+
+    #step에서 사용하는 명령어 볼 수 있는 사이트 https://docs.github.com/ko/actions
+    steps:
+      - name: checkout github
+        uses: actions/checkout@v2
+
+      
