@@ -67,7 +67,7 @@ jobs:
       - name: user image build and push docker image to ecr
         env:
           REGISTRY: 447839931800.dkr.ecr.us-west-2.amazonaws.com
-          REPOSITORY: user
+          REPOSITORY: user-service
           IMAGE_TAG: latest
         run: | 
           docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG -f ./user/Dockerfile ./user
