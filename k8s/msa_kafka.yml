@@ -68,5 +68,5 @@ spec:
 
   #matchlabels이름
   selector:
-    app: kafka-pod
+    app: kafka
 
