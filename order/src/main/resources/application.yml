@@ -98,7 +98,7 @@ spring :
 
     kafka:
       # pod 실행중인 service 이름으로 변경 (localhost X)
-      kafka-servers: kafka-service:9092
+      kafka-server: kafka-service:9092
 
 # Feign + CircuitBreaker 활성화
 feign:
