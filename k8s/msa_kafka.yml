@@ -63,8 +63,8 @@ spec:
     targetPort: 9092
 
   - name: inside #브로커 내부에서 통신용 사용하는 포트
-    port: 9092
-    targetPort: 9092  
+    port: 9093
+    targetPort: 9093
 
   #matchlabels이름
   selector:
